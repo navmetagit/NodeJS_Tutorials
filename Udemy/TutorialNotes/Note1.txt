@@ -1,0 +1,11 @@
+Synchronous code is Blocking in nature as it don't allow next statement to 
+executes until this code executes.
+
+Asynchronous code is Non-Blocking in nature as it allow next statement to
+executes even current code is still running. It accepts a callback function.
+
+Callback Hell: its a case when one callback depends on another and another of another and so on.
+                Here its like Synchronous requests and not any benefit for asynchronous.
+Solution:: using promises or async/await.
+
+For routing in app, we use express.
